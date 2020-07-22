@@ -46,6 +46,19 @@ else 'orange' if 10000000 <= x['properties']['POP2005'] < 20000000 else 'red'}))
   python file: just load the webpage to somewhere?
   
   
+2020.07.22 App_4_BookStore Take ~3h.
+  something new in this section: tkinter, sqlite3, pyinstaller
+  from tkinter import *
+  import sqlite3
+  1. Front end: design the window using tkinter.
+  2. Back end: define functions using sqlite3.
+  3. link Front end with back end: define functions using functions created in the back end section, add the functions to the window section.
+  
+  pyinstaller --onefile --windowed fronted.py # did not work for unknown reason.
+  pip3 show pyinstaller
+  echo $PATH
+  export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/3.8/bin  # add the path temporary, for permanent, use 'nano' commend open the file storage the paths, append the new to the end of the file, save it.
+  if path was added, could run 'jupyter notebook' in terminal.
   
 
 
